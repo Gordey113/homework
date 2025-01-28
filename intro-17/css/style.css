@@ -1,0 +1,33 @@
+.some-text1{
+    font-family: "Open sans" ,serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-style: italic;
+    text-align: left;
+}
+.some-text2{
+    font-family: "Roboto", serif;
+    text-align: left;
+    text-decoration: line-through;
+}
+.some-text5{
+    font-family: "Open sans" ,serif;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.some-text3{
+    font-family: "Lexend Giga", serif;
+    text-decoration: overline;
+    text-decoration-style: wavy;
+    text-decoration-color: rgb(0, 0, 0);
+    word-spacing: 30px;
+    text-shadow: 1px 1px 0 #dd99ee
+
+}
+.some-text4{
+    font-family: "Lexend Giga", serif;
+    letter-spacing: 5px;
+    text-decoration: underline;
+    text-decoration-style: double;
+}
