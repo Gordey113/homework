@@ -1,0 +1,32 @@
+body{
+    font-family: "Triodion", serif;
+    font-size: 20px;
+}
+
+section{
+    overflow: auto;
+    height: 650px;
+    border: 1px solid #000;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: rgb(235, 231, 241);
+
+
+}
+
+.block{
+    box-sizing: border-box;
+    background: wheat;
+    display: inline-block;
+    width: 350px;
+    margin: 10px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-right: 40px;
+    border-radius: 20px;
+    box-shadow: inset 0px 0px 10px 1px black ;
+    
+}
+
+
