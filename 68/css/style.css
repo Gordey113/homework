@@ -1,0 +1,29 @@
+body{
+    background: #000;
+    color: #ffffff;
+}
+
+
+.inner{
+    position: relative;
+}
+
+.block{
+            width: 900px; 
+            height: 100px; 
+            background-color: #ffffff; 
+            position: fixed;
+            top: 750px;
+            right: 50px;
+            bottom: 50px;
+            border-radius: 10px;
+}
+.circle{
+    width: 100px; 
+    height: 100px; 
+    background-color: #ff5722; 
+    border-radius: 50%; 
+    position: relative;
+    bottom: 50px;
+    left: 100px;
+}
