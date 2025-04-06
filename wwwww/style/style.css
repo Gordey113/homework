@@ -1,0 +1,163 @@
+body{
+    font-family: "Amatic SC", sans-serif;
+    background: bisque;
+    color: rgb(117, 70, 0);
+    font-weight: 600;
+    font-size: 30px;
+}
+.container {
+    background-color: bisque;
+    max-width: 600px;
+    margin:  auto;
+    padding: 15px 15px;
+    height: 100%;
+    text-align: center;
+    position: relative;
+
+}
+/* =========================================================================== */
+.small-image{
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+
+
+.title__phone{
+    font-family: "Great Vibes", sans-serif;
+    position: absolute; /* Текст позиционируется абсолютно внутри контейнера */
+    top: 12%; /* Размещаем по центру вертикали */
+    left: 50%; /* Размещаем по центру горизонтали */
+    transform: translate(-50%, -50%); /* Точное центрирование */
+    color: rgb(128, 83, 0); /* Цвет текста */
+    font-size: 45px; /* Размер шрифта */
+    text-align: center; /* Выравнивание по центру */
+    padding: 10px 10px; /* Отступы вокруг текста */
+    border-radius: 5px; /* Скругление углов */
+    white-space: nowrap;
+    font-weight: 400;
+}
+
+.title{
+    
+    font-size: 40px;
+    
+}
+.iner{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.data{
+    margin-bottom: 70px;
+}
+
+.time__title{
+    font-size: 20px;
+    padding: 15px 15px;
+    
+}
+
+
+.timeng{margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+
+}
+
+
+
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+
+
+
+.gallery__img{
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+
+.Banquet__inner{
+    margin-top: 70px;
+    margin-bottom: 45px;
+}
+.Banquet{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+
+}
+.img__timeng{
+    width: 100%;
+    margin-bottom: 70px;
+    border-radius: 5px;
+}
+
+.Dress{
+    font-family: "Great Vibes", sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.dress-code{
+    margin-top: 30px;
+}
+.present{
+    padding: 30px 30px;
+    font-size: 50px;
+    font-family: "Great Vibes", sans-serif;
+    font-weight: 400;
+}
+
+.Request{
+    padding: 30px 30px;
+    font-size: 50px;
+    font-family: "Great Vibes", sans-serif;
+    font-weight: 400;
+}
+
+
+
+
+.img__footer{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.footer_titel{
+position: absolute; /* Текст позиционируется абсолютно внутри контейнера */
+top: 90%; /* Размещаем по центру вертикали */
+left: 50%; /* Размещаем по центру горизонтали */
+transform: translate(-50%, -50%); /* Точное центрирование */
+color: rgb(0, 0, 0); /* Цвет текста */
+font-size: 16px; /* Размер шрифта */
+text-align: center; /* Выравнивание по центру */
+padding: 10px 10px; /* Отступы вокруг текста */
+border-radius: 5px; /* Скругление углов */
+white-space: nowrap;
+
+}
+
+
+
+
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+    border:0.2px solid black
+}
+.red { background-color: #eed193; }
+.green { background-color: #488348b6; }
+.blue { background-color: rgb(143, 105, 2); }
+.yellow { background-color: rgba(211, 164, 233, 0.63); }
+
