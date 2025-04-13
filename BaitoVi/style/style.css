@@ -1,0 +1,209 @@
+body {
+    background-color: #808080;;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+.container {
+    background-color: #808080;;
+    max-width: 600px;
+    margin:  auto;
+    height: 100%;
+    text-align: center;
+    position: relative;
+}
+
+
+/* ===================================================================================================== */
+.small-image{
+    max-width: 100%;
+}
+
+
+.Trofim {
+    color: #ffffff;    
+    position: absolute;
+    top: 60%;
+    left: 3%;
+    font-size: 45px;
+}
+
+@media (max-width: 430px) {
+    .Trofim {
+        font-size: 35px;
+        padding: 10px;
+        position: absolute;
+        top: 60%;
+        left: 3%;
+    }
+}
+
+.Anastasiy {color: #ffffff;    
+    position: absolute;
+    top: 70%;
+    left: 22%;
+    font-size: 45px;
+}
+@media (max-width: 430px) {
+    .Anastasiy{
+        font-size: 35px;
+        padding: 10px;
+    }
+}
+.date {color: #ffffff;    
+    position: absolute;
+    top: 80%;
+    left: 25%;
+    font-size: 45px;
+}
+
+@media (max-width: 430px) {
+    .date {
+        font-size: 35px;
+        padding: 10px;
+    }
+}
+
+/* * ===================================================================================================== */
+.Dear__family{
+    display: grid;
+    grid-template-rows: auto 1fr; /* Текст занимает нужное место, картинка — остальное */
+    gap: 10px;
+}
+.Dear{
+    font-size: 35px;
+    padding-left: 230px;
+}
+@media (max-width: 425px) {
+    .Dear {
+        font-size: 30px;
+        padding-left: 205px;
+    }
+}
+
+.family {
+    font-size: 24px;
+    padding-left: 150px;
+}
+@media (max-width: 425px) {
+    .family {
+        font-size: 24px;
+        padding-left: 125px;
+    }
+}
+@media (max-width: 380px) {
+    .family {
+        font-size: 24px;
+        padding-left: 110px;
+    }
+}
+.text {
+    text-align: left;
+    margin-bottom: 50px;
+    padding-left: 20px;
+}
+.img__dear_iner{
+    width: 100%;
+}
+
+/* * ===================================================================================================== */
+.container__main{
+    background-color: #808080;;
+    max-width: 600px;
+    margin:  auto;
+    height: 100%;
+}
+
+.time {    
+    font-size: 35px;
+    padding-left: 255px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+@media (max-width: 425px) {
+    .time {
+        font-size: 30px;
+        padding-left: 240px;
+    }
+}
+@media (max-width: 397px) {
+    .time {
+        font-size: 30px;
+        padding-left: 230px;
+    }
+}
+.time__castle { 
+    font-size: 25px;
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+.castle { margin-bottom: 25px;
+    font-size: 20px;
+    padding-left: 20px;
+
+}
+.transfer {margin-bottom: 25px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.time__dinner {
+    font-size: 25px;
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+.gala__dinner {margin-bottom: 25px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.personal__car {margin-bottom: 10px;
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+/* [========================================================================== */
+
+
+.container__present {
+    background-color: #808080;;
+    max-width: 600px;
+    margin:  auto;
+    height: 100%;
+}
+
+
+
+.Present__title{ 
+    font-size: 30px;
+    padding-top: 20px;
+    margin-bottom: 300px;
+    margin-left: 250px;
+}
+
+@media (max-width: 425px) {
+    .Present__title{
+        font-size: 25px;
+        padding-top: 20px;
+        margin-bottom: 300px;
+        margin-left: 220px;
+    }
+}
+
+.Present__iner{
+    font-size: 16px;
+    padding-left: 20px;
+    padding-bottom: 100px;
+    padding-right: 16px;
+}
+
+@media (max-width: 425px) {
+    .Present__iner{
+        font-size: 14px;
+        padding-left: 20px;
+        padding-bottom: 100px;
+        padding-right: 16px;
+    }
+}
