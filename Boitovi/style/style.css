@@ -1,0 +1,144 @@
+body{
+    background: #808080;
+}
+
+.container {
+    background-color: #808080;
+    max-width: 600px;
+    margin:  auto;
+    height: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.img{
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/tityl.jpg);
+    background-size: cover;  
+    background-position: center;  
+    background-repeat: no-repeat;
+}
+
+/* ============================================================================================================================================================= */
+.Trofim {
+    color: #ffffff;    
+    position: absolute;
+    top: 60%;
+    left: 3%;
+    font-size: 50px;
+}
+
+@media (max-width: 375px) {
+    .Trofim {
+        font-size: 40px;
+        padding: 10px;
+        position: absolute;
+        top: 60%;
+        left: 3%;
+    }
+}
+
+.Anastasiy {color: #ffffff;    
+    position: absolute;
+    top: 70%;
+    left: 22%;
+    font-size: 50px;
+}
+@media (max-width: 375px) {
+    .Anastasiy{
+        font-size: 40px;
+        padding: 10px;
+    }
+}
+.date {color: #ffffff;    
+    position: absolute;
+    top: 80%;
+    left: 25%;
+    font-size: 50px;
+}
+
+@media (max-width: 375px) {
+    .date {
+        font-size: 40px;
+        padding: 10px;
+    }
+}
+/* ========================================================================================================================================= */
+
+
+.Dear {
+    font-size: 50px;
+    position: absolute;
+    top: 0%;
+    left: 60%;
+}
+.family {font-size: 45px;
+    position: absolute;
+    top: 7%;
+    left: 30%;
+}
+.text {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: left;
+    font-size: 35px;
+    position: absolute;
+    top: 15%;
+    left: 0%;
+}
+
+.img__dear_iner{
+    margin-top: 400px;
+    object-fit: cover;
+    object-position: top;
+    width: 600px;
+    max-width: 600px;
+}
+
+/* ================================================================================================================================================ */
+
+
+
+.time{
+    font-size: 50px;
+    position: absolute;
+    top: 3%;
+    left: 63%;
+}
+
+.time__castle { font-size: 35px;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+.castle { font-size: 30px;
+    position: absolute;
+    top: 19%;
+    left: 5%;
+    text-align: left;
+}
+.transfer { font-size: 30px;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    text-align: left;
+}
+.time__dinner { font-size: 35px;
+    position: absolute;
+    top: 45%;
+    left: 5%;
+}
+.personal__car { font-size: 25px;
+    position: absolute;
+    top: 59%;
+    text-align: left;
+    left: 5%;
+}
+.gala__dinner{ font-size: 30px;
+    position: absolute;
+    top: 49%;
+    text-align: left;
+    left: 5%;
+
+}
